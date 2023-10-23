@@ -1,0 +1,77 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .link {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-container {
+    text-align: center;
+  }
+  
+  .signup-container {
+    text-align: center;
+  }
+  
+  .home-container {
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .skill-item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
