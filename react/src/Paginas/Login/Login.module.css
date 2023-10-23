@@ -1,0 +1,73 @@
+/* Estilo para o contêiner principal */
+
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #131212;
+    border: 0px solid #000000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px #0059ff33;
+  }
+  
+  /* Estilo para o título "Cadastro" */
+  h2 {
+    color: #0051ff;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 30px;
+  }
+  
+  /* Estilo para rótulos de entrada e campos de entrada */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2a86fd;
+    font-family: Cambria;
+    font-size: 20px;
+  }
+
+  input {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para a mensagem de erro */
+  span {
+    color: #ff0000;
+    font-style: italic;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium'
+  }
+  
+  /* Estilo para os botões */
+  button {
+    background-color: #064a8d;
+    color: #fff;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0e3c72;
+  }
+
+  /* Estilo para a mensagem de "Cadastro salvo com sucesso" */
+  p {
+    color: #00a000;
+    font-weight: bold;
+    text-align: center;
+  }

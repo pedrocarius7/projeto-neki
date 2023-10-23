@@ -12,8 +12,6 @@ const HomeScreen = () => {
   const [newLevel, setNewLevel] = useState('');
 
   const handleEditSkill = () => {
-    // Adicionar lógica para atualizar o nível da skill no servidor
-    // Atualize a skill no estado com o novo nível
     const updatedSkills = skills.map(skill => {
       if (skill.id === selectedSkill.id) {
         return { ...skill, level: newLevel };
@@ -21,13 +19,10 @@ const HomeScreen = () => {
       return skill;
     });
     setSkills(updatedSkills);
-    // Feche o modal de edição
     setEditModalVisibility(false);
   };
 
   const handleDeleteSkill = (id) => {
-    // Adicionar lógica para excluir a skill no servidor
-    // Remova a skill do estado
     const updatedSkills = skills.filter(skill => skill.id !== id);
     setSkills(updatedSkills);
   };

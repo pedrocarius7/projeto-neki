@@ -13,13 +13,11 @@ const LoginScreen = ({ navigation }) => {
   const [gravarSenha, setGravarSenha] = useState(false);
 
   const handleLogin = () => {
-    // Construa o objeto de dados para enviar à API
     const data = {
       login: login,
       senha: senha,
     };
 
-    // Faça uma solicitação à sua API para autenticação
     fetch('http://localhost:3000', {
       method: 'POST',
       headers: {
@@ -30,7 +28,6 @@ const LoginScreen = ({ navigation }) => {
       .then((response) => response.json())
       .then((result) => {
         if (result.authenticated) {
-          // Redirecione para a tela Home se a autenticação for bem-sucedida
           navigation.navigate('Home');
         } else {
           alert('Login ou senha incorretos');

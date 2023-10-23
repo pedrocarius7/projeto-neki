@@ -10,11 +10,8 @@ const CadastroScreen = () => {
 
   const handleCadastro = () => {
     if (password !== confirmPassword) {
-      // Senhas não coincidem, exiba uma mensagem de erro
       alert('As senhas não coincidem');
     } else {
-      // Faça uma solicitação para o serviço de cadastro
-      // ou execute a ação apropriada aqui
       alert('Cadastro realizado com sucesso');
     }
   };
